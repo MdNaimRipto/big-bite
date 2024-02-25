@@ -1,30 +1,30 @@
 import React from "react";
 import MenuHeading from "../common/MenuHeading";
-import dish1 from "@/assets/menu/food01.jpg";
-import dish2 from "@/assets/menu/food02.jpg";
-import dish3 from "@/assets/menu/food03.jpg";
-import dish4 from "@/assets/menu/food04.jpg";
+import dessert1 from "@/assets/menu/desserts/desserts1.jpg";
+import dessert2 from "@/assets/menu/desserts/desserts2.jpg";
+import dessert3 from "@/assets/menu/desserts/desserts3.jpg";
+import dessert4 from "@/assets/menu/desserts/desserts4.jpg";
 import MenuCard from "@/components/common/MenuCard";
 
 const Desserts = () => {
   const dishes = [
     {
-      img: String(dish1.src),
+      img: String(dessert1.src),
       title: "Italian Pasta",
       price: "$55.00",
     },
     {
-      img: String(dish2.src),
+      img: String(dessert2.src),
       title: "Fried Rice",
       price: "$50.00",
     },
     {
-      img: String(dish3.src),
+      img: String(dessert3.src),
       title: "Green Salad",
       price: "$40.00",
     },
     {
-      img: String(dish4.src),
+      img: String(dessert4.src),
       title: "French Pasta",
       price: "$45.00",
     },

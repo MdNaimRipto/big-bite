@@ -1,9 +1,9 @@
 import React from "react";
 import MenuHeading from "../common/MenuHeading";
-import dish1 from "@/assets/menu/food01.jpg";
-import dish2 from "@/assets/menu/food02.jpg";
-import dish3 from "@/assets/menu/food03.jpg";
-import dish4 from "@/assets/menu/food04.jpg";
+import dish1 from "@/assets/menu/main-dish/dish1.jpg";
+import dish2 from "@/assets/menu/main-dish/dish2.jpg";
+import dish3 from "@/assets/menu/main-dish/dish3.jpg";
+import dish4 from "@/assets/menu/main-dish/dish4.jpg";
 import MenuCard from "@/components/common/MenuCard";
 
 const MainDishes = () => {
