@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import bg1 from "@/assets/banner/bg1.png";
 import bg2 from "@/assets/banner/bg2.png";
-import bg3 from "@/assets/banner/bg3.jpg";
+import bg3 from "@/assets/banner/bg3.png";
 
 const BannerProductImage = () => {
   const bannerItems = [
@@ -43,7 +43,7 @@ const BannerProductImage = () => {
           alt={`Banner Item Image-${i}`}
           width={400}
           height={400}
-          className="w-full h-full object-cover float absolute top-0"
+          className="w-full h-full object-contain float absolute top-0"
           style={{
             opacity: currentSlide === i ? 1 : 0,
             transition: ".8s",
