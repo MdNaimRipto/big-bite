@@ -15,7 +15,7 @@ const BannerContent = () => {
         standard dummy text ever since the starting`}
       </p>
       <Button
-        className="commonButtonBg"
+        className="bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary"
         sx={{
           color: colorConfig.white,
           py: 1,
